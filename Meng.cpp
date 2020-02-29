@@ -66,7 +66,7 @@ void Info::main_info()
 		case '5':log();break;
 		case '6':change('e');break;
 		case '7':autosyn('s');main_info();;break;
-		case '0':autosyn('s');_exit(0);break;
+		case '0':autosyn('s');exit(0);break;
 		default:main_info();break;
 	}
 	
